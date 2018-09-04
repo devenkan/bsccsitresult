@@ -25,7 +25,7 @@ def roman_to_int(roman):
     res1=(total + num2)
     link="http://tuiost.edu.np/pdf/bs"+str(res1)+".pdf"
     data=url.urlretrieve(link,result)
-    print("\n download is goingS on")
+    print("\n download is going on")
 
     for i in range(1,100):
     	print("*\t-----*------\t *------\t-----*")
